@@ -171,7 +171,7 @@ public class 12MinarikovaESemestralProject {
             Random rand = new Random();
             for (int i = 0; i < numbers; i++)
             {
-            list.add(rand.nextInt(b-a) + a);                                    //vygenerovaní náhodných čísel v určitém rozsahu
+            list.add(rand.nextInt((b-a) + 1) + a);                                    //vygenerovaní náhodných čísel v určitém rozsahu
             }           
             
             for (int i = 0; i < (numbers - step); i++)
